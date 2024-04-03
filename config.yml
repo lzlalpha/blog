@@ -1,14 +1,20 @@
 baseURL: "https://www.lzlalpha.com"
+languageCode: zh-cn # en-us
 title: lzlalpha's Blog
 paginate: 5
 theme: PaperMod
 
-enableRobotsTXT: true
+enableInlineShortcodes: true #允许内联短码
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+
+hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+#googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -20,9 +26,8 @@ params:
   description: "探索之地"
   keywords: [博客, 少儿编程, 个人成长]
   author: lzlalpha
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2024"
+  DateFormat: "2024-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -39,8 +44,9 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowLastMod: true #显示文章更新时间
+  showtoc: true # 显示目录
+  tocopen: true # 自动展开目录
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -77,8 +83,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-  #  - name: weibo
-  #    url: "https://x.com/"
+    - name: email
+      url: "mailto:lzlalpha@qq.com"
   #  - name: stackoverflow
   #    url: "https://stackoverflow.com"
     - name: github
@@ -97,10 +103,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/lzlalpha/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  #editPost:
+  #  URL: "https://github.com/lzlalpha/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -115,14 +121,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: 分类
-      url: /categories/
+    - identifier: home
+      name: 🏠主页
+      url: /
       weight: 10
+    - identifier: categories
+      name: 📚分类
+      url: /categories/
+      weight: 30
+    - identifier: archives
+      name: ⏱时间轴
+      url: /archives/
+      weight: 40
     - identifier: tags
-      name: 标签
+      name: 🧩标签
       url: /tags/
-      weight: 20
+      weight: 50
+  #  - identifier: search
+  #    name: 🔍搜索
+  #    url: search
+  #    weight: 60
   #  - identifier: example
   #    name: example.org
   #    url: https://example.org
@@ -131,9 +149,18 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+        # anchorLineNos: true
+        codeFences: true  
+        guessSyntax: true
+        lineNos: true
+        # noClasses: false
+        # style: monokai
+        style: darcula
+
+        # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+        # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+        # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
+        # lineNoStart：行号从编号几开始，一般从 1 开始。
+        # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
+        # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+        # noClasses：使用 class 标签，而不是内嵌的内联样式
