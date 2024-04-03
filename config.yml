@@ -80,7 +80,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "探索之地 \U0001F44B"
-    Content: Welcome to my blog
+    Content: >
+      欢迎来到我的博客
+
+      - 💻 热爱编程，探究青少儿编程教育。
+
+      - 🏕️ 热爱生活：读书、电子产品、电影、旅行
+
+      - 🌈 热爱自我提升：Obsidian、GTD、建构主义
+
 
   socialIcons:
     - name: email

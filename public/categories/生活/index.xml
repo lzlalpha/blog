@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>生活 on lzlalpha&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on lzlalpha&#39;s Blog</description>
+    <image>
+      <title>lzlalpha&#39;s Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>疫情中，守望未来</title>
+      <link>http://localhost:1313/posts/2022-04-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-04-12/</guid>
+      <description>一代人有一代人的长征。 现在第四波疫情疯狂来袭，国外开放躺平，我国坚持动态清零，今天，上海还在遭受疫情肆虐，甚至有人吃不上饭，很难想象这是在2</description>
+    </item>
+  </channel>
+</rss>
