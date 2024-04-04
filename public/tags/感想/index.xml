@@ -15,10 +15,17 @@
     <atom:link href="http://localhost:1313/tags/%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>螺旋迭代，逐步完美的生活方式</title>
-      <link>http://localhost:1313/posts/2022-04-26/</link>
+      <link>http://localhost:1313/posts/2022-04-26-%E8%9E%BA%E6%97%8B%E8%BF%AD%E4%BB%A3%E9%80%90%E6%AD%A5%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-04-26/</guid>
+      <guid>http://localhost:1313/posts/2022-04-26-%E8%9E%BA%E6%97%8B%E8%BF%AD%E4%BB%A3%E9%80%90%E6%AD%A5%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</guid>
       <description>8年前，我做软件产品的开发的工作，软件开发是一项复杂度很高的工作。像Windows操作系统，是分散在全球大大小小的很多公司，几万人，经过很多</description>
+    </item>
+    <item>
+      <title>浅谈少儿编程教育的浅与深</title>
+      <link>http://localhost:1313/posts/2019-12-26-%E6%B5%85%E8%B0%88%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B%E6%95%99%E8%82%B2%E7%9A%84%E6%B5%85%E4%B8%8E%E6%B7%B1/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2019-12-26-%E6%B5%85%E8%B0%88%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B%E6%95%99%E8%82%B2%E7%9A%84%E6%B5%85%E4%B8%8E%E6%B7%B1/</guid>
+      <description>众所周知，世界上所有的事情都有一个浅度和深度的区别。所有的事情也是一个由浅入深的过程，从表面到实质的发展。 比如玩这件事情，有些玩真的只是在玩</description>
     </item>
   </channel>
 </rss>

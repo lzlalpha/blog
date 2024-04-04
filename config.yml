@@ -20,6 +20,12 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: lzlalpha's Blog
@@ -35,13 +41,13 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   ShowLastMod: true #显示文章更新时间
@@ -91,12 +97,12 @@ params:
 
 
   socialIcons:
-    - name: email
-      url: "mailto:lzlalpha@qq.com"
-  #  - name: stackoverflow
-  #    url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/lzlalpha"
+    - name: email
+      url: "mailto:lzlalpha@qq.com"
+    - name: rss
+      url: "/"
 
   #analytics:
   #  google:
@@ -134,21 +140,21 @@ menu:
       url: /
       weight: 10
     - identifier: categories
-      name: 📚分类
+      name: 🧩分类
       url: /categories/
       weight: 30
-    - identifier: archives
-      name: ⏱时间轴
-      url: /archives/
-      weight: 40
     - identifier: tags
-      name: 🧩标签
+      name: 🔖标签
       url: /tags/
+      weight: 40
+    - identifier: archives
+      name: ⏱归档
+      url: /archives/
       weight: 50
-  #  - identifier: search
-  #    name: 🔍搜索
-  #    url: search
-  #    weight: 60
+    - identifier: search
+      name: 🔍搜索
+      url: search
+      weight: 60
   #  - identifier: example
   #    name: example.org
   #    url: https://example.org
@@ -172,3 +178,7 @@ markup:
         # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
         # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
         # noClasses：使用 class 标签，而不是内嵌的内联样式
+# 评论
+services:
+  disqus:
+    shortname: lzlalphablog
