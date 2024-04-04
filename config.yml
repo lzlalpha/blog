@@ -1,7 +1,7 @@
 baseURL: "https://www.lzlalpha.com"
 languageCode: zh-cn # en-us
 title: lzlalpha's Blog
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableInlineShortcodes: true #允许内联短码
@@ -27,7 +27,7 @@ params:
   keywords: [博客, 少儿编程, 个人成长]
   author: lzlalpha
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2024-01-02"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
