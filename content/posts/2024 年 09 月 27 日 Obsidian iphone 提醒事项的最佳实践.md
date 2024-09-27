@@ -16,7 +16,7 @@ cover:
 2. （非必须）可以在 obsidian 中，新建任务文档，用 dataview 列出过期任务、今日任务、下一步行动列表进行汇总查看。
 3. macbook 在 app store 查找并安装Reminder Sync for Obsidian，并保持后台运行，该软件就会自动双向同步Obsidian 和提醒事项。
 
-![[1727423374150.png]]
+![](../images/1727423374150.png)
 
 这样就可以实现 Obsidian 和 iphone 的任务提醒同步，例如以下场景：
 1. 从 电脑端 Obsidian 中的日志中添加某个任务，设置号 due time，会自动同步到 iphone 的提醒事项中，并且提醒。
