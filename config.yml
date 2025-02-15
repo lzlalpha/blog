@@ -34,6 +34,7 @@ params:
   author: lzlalpha
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
+  languageAltTitle: "Chinese"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
