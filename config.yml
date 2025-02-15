@@ -148,16 +148,16 @@ languages:
           url: /
           weight: 1
         - name: ⏱归档
-          url: archives
+          url: /archives/
           weight: 10
         - name: 🧩分类
-          url: categories
+          url: /categories/
           weight: 20
         - name: 🔖标签
-          url: tags/
+          url: /tags/
           weight: 30
         - name: 🔍搜索
-          url: search/
+          url: search
           weight: 40
           
 #menu:
