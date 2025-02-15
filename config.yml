@@ -135,7 +135,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
     
 languages:
-  en:
+  zh:
     languageName: "Chinese"
     weight: 1
     taxonomies:
@@ -149,13 +149,16 @@ languages:
           weight: 1
         - name: ⏱归档
           url: archives
-          weight: 5
+          weight: 10
+        - name: 🧩分类
+          url: categories
+          weight: 20
         - name: 🔖标签
           url: tags/
-          weight: 10
+          weight: 30
         - name: 🔍搜索
           url: search/
-          weight: 20
+          weight: 40
           
 #menu:
 # main:
