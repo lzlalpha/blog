@@ -1,5 +1,5 @@
 baseURL: "https://www.lzlalpha.com"
-languageCode: zh # en-us
+languageCode: zh-Hans # en-us
 title: lzlalpha's Blog
 paginate: 10
 theme: PaperMod
