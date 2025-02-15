@@ -136,8 +136,32 @@ params:
     
 languages:
   en:
-    languageName: "Chinese"
+    languageName: "English"
     weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 🏠Home
+          url: /
+          weight: 1
+        - name: ⏱Archives
+          url: /archives/
+          weight: 10
+        - name: 🧩Categories
+          url: /categories/
+          weight: 20
+        - name: 🔖Tags
+          url: /tags/
+          weight: 30
+        - name: 🔍Search
+          url: search
+          weight: 40
+  zh:
+    languageName: "Chinese"
+    weight: 2
     taxonomies:
       category: categories
       tag: tags
