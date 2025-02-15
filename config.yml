@@ -147,7 +147,7 @@ languages:
         - name: 🏠首页
           url: /
           weight: 1
-        - name: ⏱归档
+        - name: ⏱时间轴
           url: /archives/
           weight: 10
         - name: 🧩分类
