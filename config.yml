@@ -135,7 +135,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
     
 languages:
-  zh:
+  en:
     languageName: "Chinese"
     weight: 1
     taxonomies:
