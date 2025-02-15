@@ -133,28 +133,51 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: home
-      name: 🏠主页
-      url: /
-      weight: 10
-    - identifier: categories
-      name: 🧩分类
-      url: /categories/
-      weight: 30
-    - identifier: tags
-      name: 🔖标签
-      url: /tags/
-      weight: 40
-    - identifier: archives
-      name: ⏱归档
-      url: /archives/
-      weight: 50
-    - identifier: search
-      name: 🔍搜索
-      url: search
-      weight: 60
+    
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: WiKi
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+          
+#menu:
+# main:
+#   - identifier: home
+#     name: 🏠主页
+#     url: /
+#     weight: 10
+#   - identifier: categories
+#     name: 🧩分类
+#     url: /categories/
+#     weight: 30
+#   - identifier: tags
+#     name: 🔖标签
+#     url: /tags/
+#     weight: 40
+#   - identifier: archives
+#     name: ⏱归档
+#     url: /archives/
+#     weight: 50
+#   - identifier: search
+#     name: 🔍搜索
+#     url: search
+#     weight: 60
   #  - identifier: example
   #    name: example.org
   #    url: https://example.org
