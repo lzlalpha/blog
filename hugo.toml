@@ -6,7 +6,7 @@ hasCJKLanguage = false
 # summaryLength = 80
 pagination.pagerSize = 3
 
-theme = "../../"
+theme = "./"
 
 [params]
   # show in HTML meta tag
