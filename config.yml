@@ -1,5 +1,6 @@
 baseURL: "https://www.lzlalpha.com"
 languageCode: zh # en-us
+defaultContentLanguage: zh
 title: lzlalpha's Blog
 paginate: 10
 theme: PaperMod
@@ -144,19 +145,19 @@ languages:
       series: series
     menu:
       main:
-        - name: 🏠Home
+        - name: 🏠首页
           url: /
           weight: 1
-        - name: ⏱Archives
+        - name: ⏱归档
           url: /archives/
           weight: 10
-        - name: 🧩Categories
+        - name: 🧩分类
           url: /categories/
           weight: 20
-        - name: 🔖Tags
+        - name: 🔖标签
           url: /tags/
           weight: 30
-        - name: 🔍Search
+        - name: 🔍搜索
           url: search
           weight: 40
           
